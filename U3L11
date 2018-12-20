@@ -1,0 +1,13 @@
+
+print('-'*65)
+print('its Brick Bot')
+temp = input('Temperature in Fahrenheit: ')
+temp = int(temp)
+
+if temp <= 45:
+	print('you should wear a jacket')
+
+else: 
+	print('you'll be fine witha sweater)
+
+print('-'*65)
